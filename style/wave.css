@@ -695,8 +695,13 @@ h2 {
         margin: 0;
         width: 100%;
     } 
+    .episodes-heading{
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
     .episodes-heading h2 {
         font-size: 30px;
+        
     }
     .video-container p {
         opacity: 60%;
@@ -718,6 +723,15 @@ h2 {
     .ul-link {
         margin: 20px auto;
     } 
+    .challenge-head{
+         
+        margin-top: 80px;
+        padding-bottom: 0px;
+    }
+    .challenge-head h1{
+         
+        margin-bottom: 0px;
+    }
     .challenge-img img {
         width: 250px;
         margin: 0 auto;
