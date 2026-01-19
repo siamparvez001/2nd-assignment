@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    
 
 }
 body{
+    min-width: 992px;
     background-color: #1A0B2E;
 }
 #navbar{
@@ -68,6 +70,12 @@ ul{
     left: 15%;
 
 }
+#primary-btn:hover{
+    background: linear-gradient(to left bottom, #F7E93F , #FB09B4 , 
+                 #9100F8) ;
+    transform: scale(1.15);
+    transition: 1s;
+}
 .menu-img{
     visibility: hidden;
 }
@@ -109,7 +117,7 @@ ul{
 .new{
     background-color: #00FF88;
     color: black;
-    display: inline;
+    display: inline-block;
     padding: 8px 16px;
     border-radius: 50px;
     position: relative;
@@ -117,7 +125,15 @@ ul{
     left: 120px;
     font-size: 20px;
     font-weight: bold;
-
+    animation: move 2s ease-in-out  infinite alternate  ;
+}
+@keyframes move {
+    from {
+    transform: translateX(-20px);
+  }
+  to {
+    transform: translateX(20px);
+  }
 }
 /* #hero{
     height: fit-content;
@@ -153,12 +169,25 @@ h2{
     font-size: 16px;
     border-radius: 20px;
 }
+#primary2-btn:hover{
+    background: linear-gradient(to left bottom, #F7E93F , #FB09B4 , 
+                 #9100F8) ;
+    transform: scale(1.15);
+    transition: 1s;
+    
+}
 #secondary-btn{
     border:1px solid #00FF88;
     color: #00FF88;
     background: none;
     font-size: 16px;
     border-radius: 20px;
+}
+#secondary-btn:hover{
+    border:1px solid white;
+    color: white;
+    transform: scale(1.15);
+    transition: 1s;
 }
 #about{
     margin-top: 0px;
@@ -186,13 +215,21 @@ h2{
 .about-number{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
+     
     margin: 40px 10%;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+ 
 }
 .about-number h2{
     color: #00FF88;
 }
 .about-number P{
     color: white;
+  
+    margin: auto;
 }
 #choose{
     color: white;
@@ -353,6 +390,10 @@ h2{
     align-content: center;
     
 }
+.challenge-text ul li:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
 #footer{
     width: 100%;
     background-color: #230749;
@@ -419,6 +460,7 @@ h2{
     body{
         margin: 0;
         padding: 0;
+        min-width: 300px;
     }
     .nav-container{
         display: flex;
@@ -434,11 +476,12 @@ h2{
     margin:50px 0px;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
+    background-position-x: center;
     background-size: cover;
     background-position: center;   
     }
     .mic-back img{
-        width: 200px;
+        width: 200x;
         height: 200px;
         position: relative;
         top: 40px;
@@ -458,14 +501,16 @@ h2{
         grid-template-columns: repeat(2 , 1fr);
         row-gap: 40px;
     }
+    .number p{
+        padding: 0px;
+        width: 100%;
+    }
     #choose{
         padding: 0%;
+  
+        height: 1500px;
     }
-    .choose-container{
-       padding: 0px;
-       align-items: center;
-       text-align: center;
-    }
+ 
     #main-grid{
         padding: 10px;
         margin: 0px 25px;
@@ -480,9 +525,9 @@ h2{
         
     }
     .choose-heading h2{
-        
-        margin-top: 60px;
-        margin-bottom: 10px;
+
+        margin-top: 10%;
+        margin-bottom: 15%;
         width: 100%;
         font-size: 35px;
          
@@ -509,9 +554,7 @@ h2{
         grid-template-columns: repeat(1 , 1fr);
         gap: 40px;
     }
-   .video-text{
-
-   }
+  
    .video-text h3{
         font-size: 20px;
    }
