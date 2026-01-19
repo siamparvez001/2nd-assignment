@@ -620,10 +620,15 @@ h2 {
     }
 
     #about {
-        margin: 0px;
+        margin: 0px 10px;
+        
 
     }
-
+    .about-container h2{
+        font-size: 2rem;
+        padding-bottom: 30px;
+       
+    }
     .about-number {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 40px;
@@ -634,10 +639,7 @@ h2 {
         width: 100%;
         
     }
-    .about-container p{
-        padding: 10px 8px;
-
-    } 
+    
     #choose {
         padding: 0px;
         height: 1800px;
