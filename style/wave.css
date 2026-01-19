@@ -517,20 +517,20 @@ h2{
         margin: 0px 25px;
         width: 100%;
     }
-    .choose-heading{
-
+    .choose-heading{ 
         align-items: center;
         text-align: center;
         padding: 0px;
         margin: 0px;
         
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+        
     }
     .choose-heading h2{
-
-        margin-top: 10%;
-        margin-bottom: 15%;
+        margin-top: 0px;
         width: 100%;
-        font-size: 35px;
+        font-size: 25px;
          
     }
     .choose-grid{
