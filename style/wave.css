@@ -616,8 +616,7 @@ h4 {
     }
 
     #choose {
-        padding: 0%;
-
+        padding: 0px;
         height: 1800px;
     }
 
@@ -632,8 +631,7 @@ h4 {
         text-align: center;
         padding: 0px;
         margin: 0px;
-
-        padding-bottom: 100px;
+        padding-bottom: 120px;
         margin-bottom: 0px;
 
     }
@@ -641,7 +639,7 @@ h4 {
     .choose-heading h2 {
         margin-top: 0px;
         width: 100%;
-        font-size: 35px;
+        font-size: 30px;
 
     }
 
