@@ -508,7 +508,7 @@ h2{
     #choose{
         padding: 0%;
   
-        height: 1500px;
+        height: 1600px;
     }
  
     #main-grid{
@@ -614,20 +614,27 @@ h2{
     #footer{
         padding: 0px;
         background-size:contain;
-        backface-visibility:visible ;
+        background-size: 120%;
+        background-position: center;
+
+        
     }
     
     .footer-logo{
         grid-template-columns: repeat(2 , 1fr);
         gap: 5px;
+        align-content: center;
         align-items: center;
+        justify-content: space-between;
+        width: 40%;
         
 
     }
     .footer-logo p{
         display: flex;
         align-items: center;
-        gap: 5px;
+         
+        gap: 0px;
         padding: 0px;
         font-size: 10px;
 
