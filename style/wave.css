@@ -567,7 +567,7 @@ h4 {
     } */
      #hero{
         padding-bottom: 0px;
-        padding: 0px 10px;
+
      }
     .hero-bg {
         margin: 0px;
@@ -575,6 +575,7 @@ h4 {
         background-repeat: no-repeat;
         background-position-x: center;
         background-size: cover;
+        padding: 0px 5px;
     }
 
     .mic-back img {
@@ -590,10 +591,17 @@ h4 {
         width: 47px;
         width: 70px;
     }
+    #primary2-btn{
+        padding: 5px 10px;
+    }
+    #secondary-btn{
+        padding: 5px 10px;
+    }
     .hero-header{
          
         position: relative;
         bottom: 170px;
+        
   
     
     }
