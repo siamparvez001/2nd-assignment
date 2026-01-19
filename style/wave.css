@@ -473,7 +473,7 @@ h2{
         visibility: visible;
     }
     .hero-bg{
-    margin:50px 0px;
+    margin:0px;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-position-x: center;
@@ -509,7 +509,7 @@ h2{
     #choose{
         padding: 0%;
   
-        height: 1750px;
+        height: 1800px;
     }
  
     #main-grid{
@@ -523,14 +523,14 @@ h2{
         padding: 0px;
         margin: 0px;
         
-        padding-bottom: 80px;
+        padding-bottom: 100px;
         margin-bottom: 0px;
         
     }
     .choose-heading h2{
         margin-top: 0px;
         width: 100%;
-        font-size: 30px;
+        font-size: 35px;
          
     }
     .choose-grid{
