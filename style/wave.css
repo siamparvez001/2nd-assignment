@@ -631,8 +631,11 @@ h2 {
     .number p {
         padding: 0px;
         width: 100%;
+        
     }
-
+    .about-container p{
+        padding: 0px 15px;
+    } 
     #choose {
         padding: 0px;
         height: 1800px;
