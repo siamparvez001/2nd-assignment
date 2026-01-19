@@ -566,5 +566,12 @@ h2{
         
 
     }
-   
+    .footer-logo p{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 0px;
+        font-size: 10px;
+
+    }
 }
