@@ -376,15 +376,17 @@ h2 {
     opacity: 60%;
 }
 
-.video-container h3,
-p,
-h4 {
-    padding: 15px;
-    width: 70%;
+.video-text h3 , p , h4 {
+    width: 100%;
+    margin: 10px;
+}
+
+.video-text {
+    padding: 30px 0px;
 }
 
 .video-container h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .clock h4 {
@@ -565,10 +567,11 @@ h4 {
      
       
     } */
-     #hero{
+    #hero {
         padding-bottom: 0px;
 
-     }
+    }
+
     .hero-bg {
         margin: 0px;
         background-image: url(../images/small.png);
@@ -591,29 +594,35 @@ h4 {
         width: 47px;
         width: 70px;
     }
-    #primary2-btn{
+
+    #primary2-btn {
         padding: 5px 10px;
     }
-    #secondary-btn{
+
+    #secondary-btn {
         padding: 5px 10px;
     }
-    .hero-header{
-         
+
+    .hero-header {
+
         position: relative;
         bottom: 170px;
-        
-  
-    
+
+
+
     }
+
     .new {
         position: relative;
         top: -250px;
         left: 70px;
     }
-    #about{
+
+    #about {
         margin: 0px;
-        
+
     }
+
     .about-number {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 40px;
@@ -663,14 +672,10 @@ h4 {
         height: 1200px;
         width: fit-content;
     }
-
     #episodes {
         padding: 0px;
         margin: 30px 0px;
-
-    }
-
-
+    } 
     .episodes-video {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
@@ -678,38 +683,38 @@ h4 {
 
     .video-text h3 {
         font-size: 20px;
-    }
-
+    } 
     .video-container {
         margin: 0;
-    }
-
+        width: 100%;
+    } 
     .episodes-heading h2 {
         font-size: 30px;
     }
-
+    .video-container p {
+        opacity: 60%;
+    }
+    .video-text {
+        padding: 30px 15px;
+    }
+    .video-container h3 {
+        font-size: 20px;
+    }
     #challenge {
         margin: 0px;
-
-    }
-
+    } 
     .challenge-box {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-    }
-
+    } 
     .ul-link {
         margin: 20px auto;
-    }
-
+    } 
     .challenge-img img {
         width: 250px;
         margin: 0 auto;
-
-    }
-
+    } 
     .challenge-text h2,
     ul {
         text-align: center;
