@@ -567,6 +567,7 @@ h4 {
     } */
      #hero{
         padding-bottom: 0px;
+        padding: 0px 10px;
      }
     .hero-bg {
         margin: 0px;
