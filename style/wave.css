@@ -722,6 +722,7 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 10px;
     } 
     .ul-link {
         margin: 20px auto;
@@ -773,8 +774,7 @@ h2 {
     }
 
     #footer {
-        padding: 0px;
-
+        padding: 0px; 
         background-size: 120%;
         background-position: center;
 
@@ -783,20 +783,22 @@ h2 {
 
     .footer-logo {
         grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
-        align-content: center;
-        align-items: center;
-        justify-content: space-between;
+        column-gap: 0px;
+        justify-content: space-evenly;
         width: 40%;
+        
+        padding: 0px;
+        padding-bottom: 10px;
 
 
     }
 
     .footer-logo p {
+        
         display: flex;
-        align-items: center;
-
-        gap: 0px;
+        /* align-items: center; */
+        width: 100%;
+        gap: 5px;
         padding: 0px;
         font-size: 10px;
 
