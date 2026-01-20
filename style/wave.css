@@ -569,7 +569,9 @@ h2 {
       
     } */
     #hero {
-        padding-bottom: 0px;
+        padding-bottom: 0%;
+         
+        height: 500px;
 
     }
 
