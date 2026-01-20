@@ -702,9 +702,12 @@ h2 {
         font-size: 20px;
     } 
     .video-container {
-        margin: 0;
+        margin: 0 ;
         width: 100%;
     } 
+    .video-container .video{ 
+        margin: 0px auto;
+    }
     .episodes-heading{
         margin-top: 70px;
         margin-bottom: 10px;
