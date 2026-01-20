@@ -644,11 +644,11 @@ h2 {
     
     #choose {
         padding: 0px;
-        height: 1800px;
+        height: 100%;
     }
 
     #main-grid {
-        padding: 20px;
+        padding:20px;
         margin: 0px 25px;
         width: 100%;
     }
@@ -658,8 +658,9 @@ h2 {
         text-align: center;
         padding: 0px;
         margin: 0px;
-        padding-bottom: 120px;
+        padding-bottom: 0px;
         margin-bottom: 0px;
+        margin-top: 50px;
 
     }
 
@@ -672,13 +673,13 @@ h2 {
 
     .choose-grid {
 
-        margin: 30px;
+        margin: 0px 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 50px;
-        height: 1200px;
+        height: 100%;
         width: fit-content;
     }
     #episodes {
